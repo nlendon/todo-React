@@ -1,0 +1,54 @@
+.container {
+  padding-top: 5rem;
+  margin: 0% auto;
+  width: 600px;
+}
+body {
+  background-color: #ccc;
+}
+
+.row {
+  font-size: 20px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bolder !important;
+}
+
+.todo {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.todo ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.todo li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem .1rem;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+
+.todo input {
+  margin-right: 5px;
+}
+.todo .done {
+  text-decoration: line-through;
+}
+.todo button {
+  margin-right: 5px;
+  border-radius: 100%;
+  background-color: red;
+}
+.todo button:hover {
+  transition: 0.2s;
+  box-shadow: 0 0 5px #000;
+}
+.add {
+  margin-left: 6.5%;
+}
